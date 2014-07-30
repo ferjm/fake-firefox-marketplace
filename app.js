@@ -17,4 +17,5 @@ app.get('/apps/packagedApp/manifest.webapp', function(req, res) {
 // Serve the content
 app.use(express.static(__dirname + '/webapp'));
 
-app.listen(3001);
+var port = Number(process.env.PORT || 5000);
+app.listen(port);
