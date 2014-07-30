@@ -1,18 +1,22 @@
 {
-  "name" : "Packaged app",
-  "version" : "1.0",
-  "size" : 8522,
-  "release_notes": "First release",
+  "name": "bug1008990",
+  "description": "Dummy test app for bug 1008990",
   "package_path": "/apps/packagedApp/application.zip",
-  "description": "Packaged App",
-  "launch_path": "index.html",
+  "launch_path": "/index.html",
   "developer": {
-    "name": "Fernando Jimenez",
-    "url": "https://github.com/ferjm"
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
   },
-  "default_locale": "en-US",
-  "icons": {
-    "60": "icon.png"
+  "activities": {
+    "loop-call": {
+      "href": "index.html",
+      "disposition": "window",
+      "filters": {
+        "type": "loop/token"
+      },
+      "returnValue": true
+    }
   },
-  "origin": "http://o.com"
+  "default_locale": "en",
+  "orientation": "portrait"
 }
