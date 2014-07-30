@@ -1,0 +1,13 @@
+{
+ "name": "bug1008990_tester",
+ "version": "0.0.1",
+ "dependencies": {
+   "express": "3.0.0"
+ },
+ "maintainers": {
+   "name": "Fernando Jimenez",
+   "email": "ferjmoreno@gmail.com"
+ },
+ "main": "app.js",
+ "description": "Fake Marketplace for https://bugzilla.mozilla.org/show_bug.cgi?id=1008990"
+}
