@@ -1,6 +1,6 @@
 {
-  "name": "bug1008990",
-  "description": "Dummy test app for bug 1008990",
+  "name": "bug1008990-1097703",
+  "description": "Dummy test app for bugs 1008990, 1097703",
   "package_path": "/apps/packagedApp/application.zip",
   "launch_path": "index.html",
   "developer": {
@@ -13,6 +13,14 @@
       "disposition": "window",
       "filters": {
         "type": "loop/token"
+      },
+      "returnValue": true
+    },
+    "room-call": {
+      "href": "index.html",
+      "disposition": "window",
+      "filters": {
+        "type": "loop/rToken"
       },
       "returnValue": true
     }
